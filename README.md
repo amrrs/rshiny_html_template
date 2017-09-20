@@ -15,16 +15,13 @@ While Rstudio reference article helps with a html template, that is without any 
 * Download this repo and unzip/extract (if zip is downlaoded)
 * Open the app.R code in your RStudio and Run the App
 
+**Package Dependencies:** library(shiny)
+
 **Reference:** [https://shiny.rstudio.com/articles/templates.html](https://shiny.rstudio.com/articles/templates.html)
 
-**Package Dependencies:**
 
-* library(shiny)
+**Courtesy:** [United Bootstrap Template](https://bootswatch.com/united/)
 
-
-
-Courtesy: [United Bootstrap Template](https://bootswatch.com/united/)
-
-Sreenshot:
+**Screenshot:**
 
 ![Shiny Template Screenshot](shiny_template_screenshot.PNG)
