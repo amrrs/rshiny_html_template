@@ -1,0 +1,16 @@
+.navbar-style{
+    background-color: #015AA6 !important;
+    padding-left: 10%;
+    padding-right: 5%;
+    height: 5vw;
+}
+.nav-link{
+    color: white !important;
+}
+.footer-style{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#0091A9, #0762AE);
+}
