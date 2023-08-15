@@ -1,0 +1,36 @@
+/* Navbar style*/
+.navbar-style{
+    background-color: #015AA6 !important;
+    padding-left: 10% ;
+    padding-right: 5% ;
+    height: 5vw;
+}
+.nav-link{
+    color: white !important;
+}
+/* Footer Style */
+.footer-style{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #0762AE; /* Para browser q não suportem gradiente */
+    background-image: linear-gradient(#0091A9, #0762AE);
+}
+/* Espaçamento Geral */ 
+.container-fluid{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.shiny-input-container{
+    padding-left: 1.5rem !important;
+}
+/* Home */
+.home{
+    padding-left: 1.5rem;
+}
+
+/* Home */
+.panel{
+    padding-left: 1.5rem;
+}
+
