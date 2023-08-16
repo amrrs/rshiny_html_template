@@ -9,32 +9,34 @@
       <link rel="stylesheet" href="css/carousel.css">
    </head>
    <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-style">
-        <img src="img/logo-navbar-aps.svg" alt="Logo" width="200" height="35"></img>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-style">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="brand-logo" src="img/logo-navbar-aps.svg" alt="Logo"></img>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav navbar-font">
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SOBRE</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#">PUBLICAÇÕES</a>              
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">EQUIPE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-               <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-             </svg></a>
-            </li>
-          </ul>
+            <ul class="navbar-nav navbar-font">
+                <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">SOBRE</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">PUBLICAÇÕES</a>              
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">EQUIPE</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg></a>
+                </li>
+            </ul>
         </div>
       </nav>
       <div class="container">
@@ -62,83 +64,51 @@
                   </div>
                </div>
             </div>
-            <div class="container text-center my-3">
-                <div class="row mx-auto my-auto justify-content-center">
-                    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicator">
-                            <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="4" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="https://via.placeholder.com/700x500.png/CB997E/333333?text=1" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 1</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="https://via.placeholder.com/700x500.png/DDBEA9/333333?text=2" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 2</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="https://via.placeholder.com/700x500.png/FFE8D6/333333?text=3" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 3</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="https://via.placeholder.com/700x500.png/B7B7A4/333333?text=4" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 4</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="https://via.placeholder.com/700x500.png/A5A58D/333333?text=5" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 5</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card">
-                                        <div class="card-img">
-                                            <img src="https://via.placeholder.com/700x500.png/6B705C/eeeeee?text=6" class="img-fluid">
-                                        </div>
-                                        <div class="card-img-overlay">Slide 6</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        </a>
-                        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        </a>
+            <div class="carousel-block">
+                <h3 class="title-equipe">Equipe</h3>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                </div>		
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-page">
+                            <div class="col-md-4">
+                                <div class="card card-equipe">
+                                    <div class="card-img-overlay">Slide 1</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-equipe">
+                                    <div class="card-img-overlay">Slide 2</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-equipe">
+                                    <div class="card-img-overlay">Slide 3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#fff"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg> -->
+                    </div>
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#000"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+                    </div>
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon filter-color" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon filter-color" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
             <div class="d-flex p-2">I'm a flexbox container!</div>
             <table class="table table-striped table-hover success">
@@ -149,7 +119,6 @@
       <div class="card-footer footer-style text-muted fixed-bottom">
          <img src="img/logos-footer.svg" alt="Logo dos parceiros"></img>
       </div>
-      <script src="js/carousel.js"></script>
       <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 

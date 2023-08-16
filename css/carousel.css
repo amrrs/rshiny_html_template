@@ -1,34 +1,44 @@
-@media (max-width: 767px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
+.title-equipe{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.carousel-indicators [data-bs-target] {
+  color: #ff0000 !important;
+  width: 10px;
+  height: 10px;
 }
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 60px !important;
+  width: 60px !important;
+}
+
+.carousel-indicators .active{
+    background-color: #015AA6;
+}
+.filter-color{
+    filter: invert(21%) sepia(38%) saturate(6500%) hue-rotate(195deg) brightness(97%) contrast(99%);
+}
+.carousel-inner{
+    width: 80%;
+    left: 10%;
+}
+
+.carousel-page {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
-/* medium and up screens */
-@media (min-width: 768px) {
-
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-        transform: translateX(25%);
-    }
-
-    .carousel-inner .carousel-item-start.active, 
-    .carousel-inner .carousel-item-prev {
-        transform: translateX(-25%);
-    }
+.carousel-page img {
+    width: 200px;
+    height: 200px;
 }
 
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-    transform: translateX(0);
+.card-equipe{
+    background-color: aqua;
+    width: 300px;
+    height: 400px;
 }
-
